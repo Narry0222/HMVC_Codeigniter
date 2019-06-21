@@ -1,0 +1,160 @@
+body {
+    font-family: work sans, sans-serif;
+}
+.star {
+    margin: 0px;
+    color: red;
+    font-size: 12px !important;
+}
+.error {
+    color: #a94442;
+    font-size: 12px !important;
+    font-family: work sans;
+}
+.m-heading {
+    padding: 15px;
+    background: #FFF;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.19);
+}
+.m-heading h4 {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.well {
+    background-color: #FFF;
+    margin-top: 20px;
+    padding: 25px;
+}
+
+#example1 th{
+    font-family: Montserrat, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+    /*  color: #FFF;*/
+}
+
+#example1 td {
+    font-size: 13px;
+}
+
+#example1 th, #example1 td {
+    /*    border: 1px solid #f39c123b;*/
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+    /*    background-color: lavender;*/
+}
+
+.right-bor {border-right: 1px solid #f39c12 !important;}
+.left-bor {border-left: 1px solid #f39c12 !important;}
+
+#example1 {
+    border: 1px solid #eee;
+}
+
+.middle-heading {
+    margin: 10px 0 !important;
+    padding: 10px;
+    background: #007bff0d;
+    border-left: 2px solid #007bff96;
+    color: #007bff;
+    font-family: quicksand;
+}
+
+.box {
+    /*    border-top: 0;*/
+}
+
+.navbar .nav > li > a {
+    font-size: 13px;
+    padding: 15px 10px;
+    border-right: 1px solid #3a7ba275;
+}
+
+.main-header li a {
+    font-size: 13px;
+    font-family: Montserrat;
+}
+
+.login-name {
+    max-width: 300px;
+    font-family: Montserrat;
+    font-size: 15px !important;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.dropdown1 {
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+
+.font-mont {
+    font-family: Montserrat, sans-serif;
+}
+
+.skin-blue .main-header .navbar .nav>li>a {
+    min-width: 75px;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+}
+
+.datepicker {
+    z-index: 10000 !important;
+}
+
+.form-control[readonly] {
+    background-color: #FFF !important;
+    opacity: 1;
+    cursor: pointer;
+}
+
+label {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 26px;
+}
+
+input, select, textarea {
+    font-size: 12px !important;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
+    border: 1px solid #eee;
+}
+
+.submit-button {
+    width: 100%;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 1px;
+}
+
+.back-color {background: #FFF; padding: 20px; box-shadow: 0 0 8px 0 #eee;}
+.help-block {font-size: 12px !important;font-family: work sans; display: none;}
+.panel-heading {font-family: Montserrat, sans-serif; font-size: 15px !important;}
